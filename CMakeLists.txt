@@ -30,6 +30,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Pose2DStamped.msg"
   "msg/Pose2DTrajectory.msg"
+  "srv/Pose2DSrv.srv"
   DEPENDENCIES geometry_msgs std_msgs
 )
 
