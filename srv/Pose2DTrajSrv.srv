@@ -1,0 +1,3 @@
+diffdrive_msgs/Pose2DTrajectory trajectory
+---
+std_msgs/Bool success
